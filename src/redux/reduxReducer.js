@@ -13,7 +13,6 @@ const reducer = (state = initialState, action) => {
         };
   
       case "USER_SUCCESS":
-          debugger
         return {
           loading: false,
           users: action.payload,
