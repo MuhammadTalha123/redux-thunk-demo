@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Della Respira', serif;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  outline: none;
+  outline-style: none;
+  padding: 10px;
+  font-family: 'Della Respira', serif;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .App-logo {
